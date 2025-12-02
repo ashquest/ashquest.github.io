@@ -27,12 +27,10 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-My name is Aashish Sinha. I am now an Mechanical Engineering undergraduate at IIT Dhanbad.
+I’m Aashish Sinha, a mechanical engineering undergrad at IIT Dhanbad, India with a clear focus on robotics and the growing world of vision-language-action systems. I work at the intersection of hardware, perception, and modern AI models, and I’m especially interested in VLMs, VLA pipelines, and techniques that push robots beyond predictable, pre-scripted behavior.
 
+I’ve taken on projects that mix real-world manipulation, multimodal sensing, and experimental setups where I can test ideas quickly and iterate fast. I’m comfortable moving between code, hardware, and theory, and I like building systems that actually work outside a controlled demo.
 
+When I’m not in the lab, I’m usually out hiking, tuning hardware, or digging through new research to spark the next idea.
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I’m preparing for my next step in fall 2026. I’m exploring either a research-focused master’s or a full-time research role in robotics or embodied AI — anywhere I can contribute at a high level and keep pushing the field forward.
