@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Let's suffer with aim, shall we?
+subtitle: B.Tech in Mechanical Engineering @ IIT (ISM) Dhanbad
 
 profile:
   align: right
