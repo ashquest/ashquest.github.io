@@ -16,6 +16,6 @@ discord_id: what_blink # your Discord username and tag
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
 custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Signal-Logo-Ultramarine_%282024%29.svg/250px-Signal-Logo-Ultramarine_%282024%29.svg.png # can be png, svg, jpg
+  logo: fa-brands fa-signal-messenger
   title: Signal
   url: https://signal.me/#eu/WAnDkLEzheoSp3GMu3P6ODJ1RTEuUJG_1VjrIX-La_DmX4kY_YNPN6f7TQ0BcdsN
