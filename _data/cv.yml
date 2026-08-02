@@ -1,189 +1,145 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Aashish Sinha
+  label: Robotics Researcher
+  email: aashish.xml@gmail.com
+  location: Hyderabad, India
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: Robotics researcher focused on perception, control, embodied AI, and autonomous systems. Interested in model predictive control, reinforcement learning, and aerial manipulation.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
-      username: example
+      username: aashish-sinha
+    - network: GitHub
+      username: ashquest
+    - network: Email
+      username: aashish.xml@gmail.com
 
   address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    city: Hyderabad
+    region: Telangana
+    countryCode: IN
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Indian Institute of Technology (ISM) Dhanbad
+        location: Dhanbad, India
+        area: Mechanical Engineering
+        studyType: B.Tech.
+        start_date: 2022-11-01
+        end_date: 2026-05-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - Relevant coursework in robotics, control, computer vision, reinforcement learning, embedded systems, optimization, and linear algebra.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
+      - institution: The Senior Study School
+        location: Amritsar, India
+        area: Science
+        studyType: High School
+        start_date: 2022-03-01
+        end_date: 2022-03-01
         highlights:
-          - Description 1.
-          - Description 2.
+          - Completed senior secondary education in science.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: RRC, IIIT-Hyderabad
+        position: Research Intern
+        location: Hyderabad, India
+        start_date: 2026-02-01
+        end_date: Present
+        summary: Research under Prof. Spandan Roy.
         highlights:
-          - Relativity
-          - Description 2.
+          - Working on graph-informed MPC for collaborative drone swarms.
+          - Designed a model predictive control framework for collaborative multi-drone payload transport.
+          - Trained a GNN to predict nonlinear MPC residuals and cable tension forces.
+          - Generalized the GNN across variable swarm sizes and payload weights to mitigate swing and ensure stability.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Robotics Lab, IIT Dhanbad
+        position: Research Assistant
+        location: Dhanbad, India
+        start_date: 2025-11-01
+        end_date: 2025-11-01
+        summary: Guided by Prof. Arun Dayal Udai.
         highlights:
-          - Description 1.
-          - Description 2.
+          - Processed Intel RealSense data for 3D pose estimation and executed bottle-grasping tasks using a humanoid robot.
+          - Designed a cart-pole stabilization system using an energy-based control algorithm and an LQR balancing controller.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
-
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
-
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+      - company: Automation Lab, IIT Dhanbad
+        position: Research Assistant
+        location: Dhanbad, India
+        start_date: 2025-08-01
+        end_date: 2026-04-01
+        summary: Under Prof. Vivek Bajpai.
         highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+          - Designed a 3-DOF mechatronic gantry system and parallelogram gripper using spatial kinematics.
+          - Fine-tuned a real-time YOLO vision pipeline and mapped 2D camera feeds to 3D coordinates.
+          - Deployed a REST API on an ESP32 edge node to synchronize AI perception with physical hardware actuation.
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - company: DG Takano
+        position: Mechanical Research Intern
+        location: Osaka, Japan
+        start_date: 2025-05-01
+        end_date: 2025-07-01
+        summary: Precision mechanical actuation and structural design.
+        highlights:
+          - Engineered a 3-position mechanical actuation system for variable fluid control using CAD and rapid prototyping.
+          - Optimized the magnetic coupling interface, increasing retention force by 300% and improving manufacturability.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
-
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
-
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
-
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
-
-    Skills:
-      - name: Physics
-        level: Master
-        icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Languages:
-      - name: German
-        summary: "Native speaker"
-
-      - name: English
-        summary: "Fluent"
-
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+      - company: NVCTI (Institute Innovation Hub)
+        position: Research Intern / Mentee
+        location: Dhanbad, India
+        start_date: 2025-01-01
+        end_date: 2025-04-01
+        summary: Mentored by Dr. Ashish Siddharth.
+        highlights:
+          - Designed an AMR chassis in CAD and deployed ROS 2 Nav2 with LiDAR-based SLAM.
+          - Fused wheel odometry, IMU, and magnetometer data using a Kalman filter for robust state estimation.
+          - Integrated the Gemini LLM API with voice recognition and TTS for natural language–commanded robot control.
 
     Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+      - name: GAN
+        summary: Trained a GAN on 60K anime faces and fine-tuned it for more realistic facial features.
         highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+          - Python
+          - PyTorch
+          - Deep Learning
+        start_date: 2024-01-01
+        end_date: 2024-06-01
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: ChatPDF
+        summary: Built a retrieval-augmented generation pipeline using LangChain and the Gemini API to query online PDFs.
+        highlights:
+          - LangChain
+          - Gemini API
+          - RAG
+        start_date: 2024-01-01
+        end_date: 2024-06-01
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    Skills:
+      - name: Programming
+        level: Advanced
+        keywords: "Python, C++, Linux, Git, REST APIs (FastAPI/Flask)"
+
+      - name: Robotics & Simulation
+        level: Advanced
+        keywords: "ROS/ROS2, Gazebo, PX4"
+
+      - name: AI & Machine Learning
+        level: Advanced
+        keywords: "VLM, PyTorch, GNN, GAN, CNN, Deep RL"
+
+      - name: Control & Perception
+        level: Advanced
+        keywords: "OpenCV, YOLO, SLAM (Nav2), MPC, Kinematics, Trajectory Optimization, Kalman Filters"
+
+      - name: Hardware & Prototyping
+        level: Advanced
+        keywords: "Raspberry Pi, ESP32/Arduino, IMU, 3D Printing, CAD, DFM"
+
+    Relevant Coursework:
+      - name: Robotics & Control
+        summary: Kinematics & Dynamics of Machinery, PID/MPC, Mechatronics
+
+      - name: AI & Computing
+        summary: Computer Vision, Reinforcement Learning, Data Structures & Algorithms, Embedded Systems
+
+      - name: Mathematics
+        summary: Linear Algebra, Optimization Techniques, Probability & Statistics

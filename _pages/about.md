@@ -2,11 +2,11 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Robotics • Perception • Embodied AI • Embedded Systems
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: prof_pic_2.jpg
   image_circular: false # crops the image to make it circular
   more_info: #>
     # <p>555 your office number</p>
@@ -33,8 +33,8 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hi, I'm **Aashish Sinha**, a robotics research intern at IIIT-Hyderabad, and fortune enough to be advised by [Prof. Spandan Roy](https://scholar.google.com/citations?hl=en&user=tUKoUgMAAAAJ). My interests are in **robotics, perception, embodied AI, and embedded systems**.
+Hi, I'm **Aashish Sinha**, a robotics researcher with interests in **perception, control, embodied AI, and autonomous systems**. I am currently a research intern at IIIT-Hyderabad, where I work with [Prof. Spandan Roy](https://scholar.google.com/citations?hl=en&user=tUKoUgMAAAAJ) on graph-informed model predictive control for collaborative drone swarms.
 
-Previously, I obtained B.Tech in Mechanical Engineering from IIT Dhanbad, where I worked under Prof. Vivek Bajpai, on a gantry crane vision automation system and filed a patent. I also worked under Prof. Arun Dayal Udai, on object grabbing with humanoid using 3D vision.
+I am completing my B.Tech. in Mechanical Engineering at IIT (ISM) Dhanbad, where I have worked on vision-guided robotics, aerial manipulation, and embedded perception systems. My experience spans ROS/ROS 2, computer vision, MPC, reinforcement learning, and hardware prototyping for real-world robotic platforms.
 
-I am currently wrapping up a research on swarm of drones at IIIT-Hyderabad, and am looking for robotics research roles. If you have a position at your lab, please contact me via email.
+I am currently exploring research roles in robotics and autonomous systems, and I am always happy to connect by email.
