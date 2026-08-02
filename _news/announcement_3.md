@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2025-01-01 00:00:00+00:00
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Built an LLM-integrated autonomous mobile robot with ROS 2 Nav2, LiDAR SLAM, and voice-commanded control.
