@@ -15,7 +15,7 @@ discord_id: what_blink # your Discord username and tag
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
-custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-  logo: fa-brands fa-signal-messenger
-  title: Signal
-  url: https://signal.me/#eu/WAnDkLEzheoSp3GMu3P6ODJ1RTEuUJG_1VjrIX-La_DmX4kY_YNPN6f7TQ0BcdsN
+# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
+#   logo: fa-brands fa-signal-messenger
+#   title: Signal
+#   url: https://signal.me/#eu/WAnDkLEzheoSp3GMu3P6ODJ1RTEuUJG_1VjrIX-La_DmX4kY_YNPN6f7TQ0BcdsN
