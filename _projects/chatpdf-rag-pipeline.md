@@ -2,7 +2,7 @@
 layout: page
 title: ChatPDF
 description: Retrieval-augmented QA over large PDF documents using LangChain and Gemini
-img: assets/img/1.jpg
+img: assets/project/chatpdf/image.png
 importance: 8
 category: work
 ---
