@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Cart-Pole Stabilization System
+title: Cart-Pole Problem (Inverted Pendulum)
 description: Energy-based swing-up control and LQR balancing for a pendulum system
 img: assets/img/9.jpg
 importance: 4
@@ -8,6 +8,30 @@ category: work
 ---
 
 This project involved controlling a cart-pole system by first swinging a resting pendulum upright and then stabilizing it near the vertical position. I implemented both an energy-based swing-up strategy and an LQR-based balancing controller.
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <iframe
+            src="https://www.youtube.com/embed/JryFTt8ogv4"
+            title="Cartpole Simulation"
+            class="rounded z-depth-1"
+            style="width: 100%; aspect-ratio: 16/9; border: 0;"
+            allowfullscreen
+        ></iframe>
+        <div class="caption mt-2">Cartpole Simulation</div>
+    </div>
+    <div class="col-sm mt-3 mt-md-0 text-center">
+        <iframe
+            src="https://www.youtube.com/embed/wKrgo59ktK4"
+            title="Cartpole Hardware"
+            class="rounded z-depth-1"
+            style="width: 100%; aspect-ratio: 16/9; border: 0;"
+            allowfullscreen
+        ></iframe>
+        <div class="caption mt-2">Cartpole Hardware</div>
+    </div>
+</div>
+
 
 ### Hardware setup
 For the physical testbed, I used pre-assembled N-Motion components rather than building the motion hardware from scratch. N-Motion is a modular motion-control platform designed for rapid integration of actuators, sensors, and control interfaces in electromechanical systems. Its components are intended to be easy to connect and reconfigure, which made the cart-pole setup practical for experiments without spending excessive time on low-level mechanical integration.
@@ -22,3 +46,8 @@ A key advantage of the platform was its compatibility with USB-based communicati
 
 ### Outcome
 The project gave me strong hands-on experience in classic control design, system modeling, balancing controller tuning, and working with modular hardware for experimental control systems.
+
+
+
+
+
