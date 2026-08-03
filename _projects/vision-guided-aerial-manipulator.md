@@ -16,3 +16,11 @@ This project focused on enabling a quadrotor to perform grasp-and-place tasks wi
 
 ### Key takeaway
 The project demonstrated how visual guidance and optimized motion generation can be combined to enable semi-autonomous aerial manipulation in practical scenarios.
+
+
+{% include figure.liquid loading="eager" path="_projects/assets/vision_aerial_manipulator_img_1.jpg" title="Vision-guided aerial manipulator setup" class="img-fluid rounded z-depth-1" %}
+
+<video controls preload="metadata" class="img-fluid rounded z-depth-1" poster="_projects/assets/vision_aerial_manipulator_img_1.jpg">
+  <source src="_projects/assets/vision_aerial_manipulator_vid_1.mp4" type="video/mp4" />
+  Your browser does not support the video tag.
+</video>
