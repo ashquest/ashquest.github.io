@@ -17,10 +17,23 @@ This project focused on enabling a quadrotor to perform grasp-and-place tasks wi
 ### Key takeaway
 The project demonstrated how visual guidance and optimized motion generation can be combined to enable semi-autonomous aerial manipulation in practical scenarios.
 
+<div class="row mt-3">
+  <div class="col-sm mt-3 mt-md-0">
+    {% include figure.liquid loading="eager" path="assets/project/vision_aerial_manipulator_img_1.jpg" title="Vision-guided aerial manipulator setup" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm mt-3 mt-md-0">
+    {% include video.liquid path="assets/project/vision_aerial_manipulator_vid_1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+  </div>
+</div>
+<div class="caption">
+    A direct video embed for the aerial manipulator demonstration.
+</div>
 
-{% include figure.liquid loading="eager" path="_projects/assets/vision_aerial_manipulator_img_1.jpg" title="Vision-guided aerial manipulator setup" class="img-fluid rounded z-depth-1" %}
-
-<video controls preload="metadata" class="img-fluid rounded z-depth-1" poster="_projects/assets/vision_aerial_manipulator_img_1.jpg">
-  <source src="_projects/assets/vision_aerial_manipulator_vid_1.mp4" type="video/mp4" />
-  Your browser does not support the video tag.
-</video>
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&title=0&byline=0&portrait=0" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
