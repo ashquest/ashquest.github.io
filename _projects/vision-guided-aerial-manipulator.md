@@ -19,10 +19,7 @@ The project demonstrated how visual guidance and optimized motion generation can
 
 <div class="row mt-3">
   <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/project/vision_aerial_manipulator_img_1.jpg" title="Vision-guided aerial manipulator setup" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm mt-3 mt-md-0">
-    {% include video.liquid path="assets/project/vision_aerial_manipulator_vid_1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    {% include figure.liquid loading="eager" path="assets/project/vision_aerial_manipulator_img_1.jpg" title="Vision-guided aerial manipulator setup" class="img-fluid rounded z-depth-1" style="height: 320px; object-fit: cover;" %}
   </div>
 </div>
 <div class="caption">
@@ -31,9 +28,6 @@ The project demonstrated how visual guidance and optimized motion generation can
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://www.youtube.com/embed/jNQXAC9IVRw" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include video.liquid path="https://player.vimeo.com/video/524933864?h=1ac4fd9fb4&title=0&byline=0&portrait=0" class="img-fluid rounded z-depth-1" %}
+        {% include video.liquid path="https://www.youtube.com/embed/piGTbQdZyzY" class="img-fluid rounded z-depth-1" style="height: 320px; object-fit: cover;" %}
     </div>
 </div>
