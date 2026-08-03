@@ -1,13 +1,14 @@
 ---
 layout: page
 title: Cart-Pole Problem (Inverted Pendulum)
-description: Energy-based swing-up control and LQR balancing for a pendulum system
-img: assets/img/9.jpg
+description: Energy-based swing-up control + LQR balancing for a pendulum system
+img: assets/project/cartpole_thumb.png
 importance: 4
 category: work
 ---
 
 This project involved controlling a cart-pole system by first swinging a resting pendulum upright and then stabilizing it near the vertical position. I implemented both an energy-based swing-up strategy and an LQR-based balancing controller.
+
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
@@ -32,6 +33,7 @@ This project involved controlling a cart-pole system by first swinging a resting
     </div>
 </div>
 
+Source code: <a href="https://github.com/ashquest/cartpole" target="_blank" rel="noopener noreferrer">Github</a>
 
 ### Hardware setup
 For the physical testbed, I used pre-assembled N-Motion components rather than building the motion hardware from scratch. N-Motion is a modular motion-control platform designed for rapid integration of actuators, sensors, and control interfaces in electromechanical systems. Its components are intended to be easy to connect and reconfigure, which made the cart-pole setup practical for experiments without spending excessive time on low-level mechanical integration.
