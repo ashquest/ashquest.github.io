@@ -5,6 +5,7 @@ description: Modular fluid-control actuation system with manufacturability optim
 img: assets/img/11.jpg
 importance: 6
 category: work
+published: false
 ---
 
 At DG Takano, I worked on the design of a precision mechanical actuation system for variable fluid control. The project focused on improving function, manufacturability, and modular assembly.
