@@ -2,7 +2,7 @@
 layout: page
 title: Humanoid Grasping with RGB-D Perception
 description: 3D object pose estimation and manipulation using a humanoid robot
-img: assets/img/8.jpg
+img: assets/project/humanoid_depth_cam/logo.png
 importance: 3
 category: work
 ---

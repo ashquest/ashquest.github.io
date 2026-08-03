@@ -2,7 +2,7 @@
 layout: page
 title: Graph-Informed MPC for Drone Swarms
 description: Collaborative multi-drone payload transport with learned residual modeling
-img: assets/img/6.jpg
+img: assets/project/gnn/gnn_logo.png
 importance: 1
 category: work
 ---
