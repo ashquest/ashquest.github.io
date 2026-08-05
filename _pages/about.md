@@ -33,7 +33,7 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hi, I'm **Aashish Sinha**, a robotics researcher with interests in **controls, embodied AI, VLA, multimodel foundation models & RL**. I am currently a research intern at IIIT-Hyderabad, where I work with [Prof. Spandan Roy](https://scholar.google.com/citations?hl=en&user=tUKoUgMAAAAJ) on graph-informed model predictive control for collaborative drone swarms.
+Hi, I'm **Aashish Sinha**, a robotics researcher with interests in **controls, embodied AI, VLA, multimodal foundation models & RL**. I am currently a research intern at IIIT-Hyderabad, where I work with [Prof. Spandan Roy](https://scholar.google.com/citations?hl=en&user=tUKoUgMAAAAJ) on graph-informed model predictive control for collaborative drone swarms.
 
 I hold a B.Tech. in Mechanical Engineering from IIT Dhanbad, where I worked with Prof. Vivek Bajpai & Prof. Arun Dayal Udai worked on vision-guided robotics, aerial manipulation, and embedded perception systems. My experience spans ROS/ROS 2, GNN, MPC, RL, and hardware prototyping for real-world robotic platforms.
 
