@@ -193,7 +193,52 @@ ninja.data = [{
             },},{id: "news-started-a-research-internship-at-iiit-hyderabad-under-prof-spandan-roy-on-graph-informed-mpc-for-collaborative-drone-swarms",
           title: 'Started a research internship at IIIT-Hyderabad under Prof. Spandan Roy on graph-informed MPC...',
           description: "",
-          section: "News",},{id: "projects-autonomous-mobile-robot-nav2-slam",
+          section: "News",},{id: "projects-graph-informed-mpc-for-drone-swarms",
+          title: 'Graph-Informed MPC for Drone Swarms',
+          description: "Collaborative multi-drone payload transport with learned residual modeling",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/01_graph-informed-mpc-drone-swarms/";
+            },},{id: "projects-multi-task-diffusion-policy-for-robotic-manipulation",
+          title: 'Multi-Task Diffusion Policy for Robotic Manipulation',
+          description: "A single conditional diffusion model trained to solve Push-T, Lift, and Can tasks",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/02_diffusion-policy/";
+            },},{id: "projects-vision-guided-aerial-manipulator",
+          title: 'Vision-Guided Aerial Manipulator',
+          description: "Autonomous grasping and placement using quadrotor motion planning and vision",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/03_vision-guided-aerial-manipulator/";
+            },},{id: "projects-vision-guided-mechatronic-gantry-system",
+          title: 'Vision-Guided Mechatronic Gantry System',
+          description: "AI-guided crane automation with perception and edge deployment",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/04_vision-guided-gantry-system/";
+            },},{id: "projects-cart-pole-problem-inverted-pendulum",
+          title: 'Cart-Pole Problem (Inverted Pendulum)',
+          description: "Energy-based swing-up control + LQR balancing for a pendulum system",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/05_cart-pole-stabilization/";
+            },},{id: "projects-world-model-vision-component-for-autonomous-racing",
+          title: 'World Model Vision Component for Autonomous Racing',
+          description: "Analyzing real-time visual reconstruction and latent space modeling for reinforcement learning",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/06_world-model/";
+            },},{id: "projects-holonomic-motion",
+          title: 'Holonomic Motion',
+          description: "Demonstration of Holonomic Motion + Robotic Arm",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/07_holonomic-motion/";
+            },},{id: "projects-gan-for-anime-face-generation",
+          title: 'GAN for Anime Face Generation',
+          description: "A PyTorch DCGAN for generating anime-style faces from random noise",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/08_gan-anime-face-generation/";
+            },},{id: "projects-humanoid-grasping-with-rgb-d-perception",
+          title: 'Humanoid Grasping with RGB-D Perception',
+          description: "3D object pose estimation and manipulation using a humanoid robot",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/09_humanoid-grasping-rgbd/";
+            },},{id: "projects-autonomous-mobile-robot-nav2-slam",
           title: 'Autonomous Mobile Robot (Nav2 + SLAM)',
           description: "ROS 2 navigation, SLAM, state estimation, and voice-controlled autonomy",
           section: "Projects",handler: () => {
@@ -203,51 +248,6 @@ ninja.data = [{
           description: "Retrieval-augmented QA over large PDF documents using LangChain and Gemini",
           section: "Projects",handler: () => {
               window.location.href = "/projects/11_chatpdf-rag-pipeline/";
-            },},{id: "projects-graph-informed-mpc-for-drone-swarms",
-          title: 'Graph-Informed MPC for Drone Swarms',
-          description: "Collaborative multi-drone payload transport with learned residual modeling",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/1_graph-informed-mpc-drone-swarms/";
-            },},{id: "projects-multi-task-diffusion-policy-for-robotic-manipulation",
-          title: 'Multi-Task Diffusion Policy for Robotic Manipulation',
-          description: "A single conditional diffusion model trained to solve Push-T, Lift, and Can tasks",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/2_diffusion-policy/";
-            },},{id: "projects-vision-guided-aerial-manipulator",
-          title: 'Vision-Guided Aerial Manipulator',
-          description: "Autonomous grasping and placement using quadrotor motion planning and vision",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/3_vision-guided-aerial-manipulator/";
-            },},{id: "projects-vision-guided-mechatronic-gantry-system",
-          title: 'Vision-Guided Mechatronic Gantry System',
-          description: "AI-guided crane automation with perception and edge deployment",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/4_vision-guided-gantry-system/";
-            },},{id: "projects-cart-pole-problem-inverted-pendulum",
-          title: 'Cart-Pole Problem (Inverted Pendulum)',
-          description: "Energy-based swing-up control + LQR balancing for a pendulum system",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/5_cart-pole-stabilization/";
-            },},{id: "projects-world-model-vision-component-for-autonomous-racing",
-          title: 'World Model Vision Component for Autonomous Racing',
-          description: "Analyzing real-time visual reconstruction and latent space modeling for reinforcement learning",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/6_world-model/";
-            },},{id: "projects-holonomic-motion",
-          title: 'Holonomic Motion',
-          description: "Demonstration of Holonomic Motion + Robotic Arm",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/7_holonomic-motion/";
-            },},{id: "projects-gan-for-anime-face-generation",
-          title: 'GAN for Anime Face Generation',
-          description: "A PyTorch DCGAN for generating anime-style faces from random noise",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/8_gan-anime-face-generation/";
-            },},{id: "projects-humanoid-grasping-with-rgb-d-perception",
-          title: 'Humanoid Grasping with RGB-D Perception',
-          description: "3D object pose estimation and manipulation using a humanoid robot",
-          section: "Projects",handler: () => {
-              window.location.href = "/projects/9_humanoid-grasping-rgbd/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
