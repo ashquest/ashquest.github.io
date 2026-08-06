@@ -3,7 +3,7 @@ layout: page
 title: Cart-Pole Problem (Inverted Pendulum)
 description: Energy-based swing-up control + LQR balancing for a pendulum system
 img: assets/project/cartpole_thumb.png
-importance: 4
+importance: 1
 category: work
 ---
 

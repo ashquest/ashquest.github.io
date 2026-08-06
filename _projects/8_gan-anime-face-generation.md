@@ -3,7 +3,7 @@ layout: page
 title: GAN for Anime Face Generation
 description: A PyTorch DCGAN for generating anime-style faces from random noise
 img: assets/project/gan_logo.png
-importance: 9
+importance: 1
 category: work
 ---
 

@@ -3,7 +3,7 @@ layout: page
 title: Autonomous Mobile Robot (Nav2 + SLAM)
 description: ROS 2 navigation, SLAM, state estimation, and voice-controlled autonomy
 img: assets/project/guide_bot/3.png
-importance: 7
+importance: 1
 category: work
 ---
 

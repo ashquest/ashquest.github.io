@@ -3,7 +3,7 @@ layout: page
 title: Vision-Guided Mechatronic Gantry System
 description: AI-guided crane automation with perception and edge deployment
 img: assets/project/gantry/gantry_thumb.png
-importance: 5
+importance: 1
 category: work
 ---
 

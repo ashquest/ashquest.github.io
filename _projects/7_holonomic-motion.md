@@ -3,7 +3,7 @@ layout: page
 title: Holonomic Motion
 description: Demonstration of Holonomic Motion + Robotic Arm
 img: assets/project/holonomic/holonomic_logo.png
-importance: 3
+importance: 1
 category: work
 ---
 

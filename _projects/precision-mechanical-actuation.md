@@ -3,7 +3,7 @@ layout: page
 title: Precision Mechanical Actuation and Structural Design
 description: Modular fluid-control actuation system with manufacturability optimization
 img: assets/img/11.jpg
-importance: 6
+importance: 1
 category: work
 published: false
 ---

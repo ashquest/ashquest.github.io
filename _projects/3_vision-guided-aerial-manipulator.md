@@ -3,7 +3,7 @@ layout: page
 title: Vision-Guided Aerial Manipulator
 description: Autonomous grasping and placement using quadrotor motion planning and vision
 img: assets/project/vision-aerial_manipulator/logo.jpg
-importance: 2
+importance: 1
 category: work
 ---
 
