@@ -48,6 +48,9 @@ I explored and extended a state-based diffusion policy to a multi-task setting. 
     </div>
 </div> -->
 
+Source code: <a href="https://github.com/ashquest/unified_diffusion_policy" target="_blank" rel="noopener noreferrer">Github</a>
+
+
 ### What I built
 * Extended a diffusion policy to solve the PyMunk Push-T task and the Robosuite Lift and Can tasks using a single shared 1D U-Net.
 * Designed per-task linear projection heads to map native observation features (ranging from 5 to 23 dimensions) into a shared 64-dimensional space.
