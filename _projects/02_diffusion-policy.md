@@ -1,62 +1,42 @@
 ---
 layout: page
 title: Multi-Task Diffusion Policy for Robotic Manipulation
-description: A single conditional diffusion model trained to solve Push-T, Lift, and Can tasks
+description: A single conditional diffusion model trained to solve Push-T and Block-Push tasks
 img: assets/project/diffusion_policy/thumb.png
 importance: 1
 category: work
 ---
 
-I explored and extended a state-based diffusion policy to a multi-task setting. The goal was to train a single shared model to perform three distinct robotic manipulation tasks—Push-T, Lift, and PickPlaceCan—by combining per-task processing with a unified noise-prediction network.
+I explored and extended a state-based diffusion policy to a multi-task setting. The goal was to train a single shared model to perform two distinct robotic manipulation tasks—Push-T (2D PyMunk) and Block-Push (PyBullet XArm)—by combining per-task processing with a unified noise-prediction network.
 
-<!-- <div class="row mt-3">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0 text-center">
-        <video 
+        <img 
             class="rounded z-depth-1" 
-            style="width: 100%; aspect-ratio: 16/9; border: 0;" 
-            controls 
-            muted 
-            loop>
-            <source src="{{ '/assets/video/push_t_multitask.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
+            style="width: 70%; border: 30;" 
+            src="{{'/assets/project/diffusion_policy/pusht_ep01_success_True_coverage_0.985.gif' | relative_url }}"
+            alt="Push-T environment GIF">
         <div class="caption mt-2">Push-T Environment</div>
     </div>
     <div class="col-sm mt-3 mt-md-0 text-center">
-        <video 
+        <img 
             class="rounded z-depth-1" 
-            style="width: 100%; aspect-ratio: 16/9; border: 0;" 
-            controls 
-            muted 
-            loop>
-            <source src="{{ '/assets/video/lift_multitask.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="caption mt-2">Robosuite: Lift</div>
+            style="width: 70%; border: 30;" 
+            src="{{ '/assets/project/diffusion_policy/blockpush_ep04_success_True_reward_1.000.gif' | relative_url }}"
+            alt="Block-Push environment GIF">
+        <div class="caption mt-2">Block-Push Environment</div>
     </div>
-    <div class="col-sm mt-3 mt-md-0 text-center">
-        <video 
-            class="rounded z-depth-1" 
-            style="width: 100%; aspect-ratio: 16/9; border: 0;" 
-            controls 
-            muted 
-            loop>
-            <source src="{{ '/assets/video/can_multitask.mp4' | relative_url }}" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-        <div class="caption mt-2">Robosuite: PickPlaceCan</div>
-    </div>
-</div> -->
+</div>
 
 Source code: <a href="https://github.com/ashquest/unified_diffusion_policy" target="_blank" rel="noopener noreferrer">Github</a>
 
 
 ### What I built
-* Extended a diffusion policy to solve the PyMunk Push-T task and the Robosuite Lift and Can tasks using a single shared 1D U-Net.
-* Designed per-task linear projection heads to map native observation features (ranging from 5 to 23 dimensions) into a shared 64-dimensional space.
-* Implemented task conditioning by concatenating a one-hot task label to the projected observations.
-* Built per-task action encoders and decoders to manage varying action spaces across different robots and environments.
-* Created a custom collate function and uniform/weighted sampling strategies to combine and batch training data across the multiple tasks.
+* Extended a diffusion policy to solve the PyMunk Push-T task and the PyBullet Block-Push task using a single shared 1D U-Net backbone.
+* Designed per-task linear projection heads to map native observation features (5-dim for Push-T, 16-dim for Block-Push) into a shared 64-dimensional space.
+* Implemented task conditioning by concatenating a one-hot task label to the projected observations to form a 130-dimensional global conditioning vector.
+* Built per-task action encoders and decoders to manage action spaces across different environments.
+* Created a custom collate function and weighted sampling strategies to balance heterogeneous datasets (24k Push-T samples vs 107k Block-Push samples).
 * Utilized action chunking during live environment rollouts to execute a horizon of multiple predicted actions without replanning.
 
 ### Why it matters
