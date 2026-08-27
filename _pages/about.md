@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Robotics • Perception • Embodied AI • Embedded Systems
+subtitle: Robotics • Embodied AI • Embedded Systems • Perception
 
 profile:
   align: right
@@ -35,6 +35,6 @@ Link to your social media connections, too. This theme is set up to use [Font Aw
 
 Hi, I'm **Aashish Sinha**, a robotics researcher with interests in **controls, embodied AI, VLA, multimodal foundation models & RL**. I am currently a research intern at IIIT-Hyderabad, where I work with [Prof. Spandan Roy](https://scholar.google.com/citations?hl=en&user=tUKoUgMAAAAJ) on graph-informed model predictive control for collaborative drone swarms.
 
-I hold a B.Tech. in Mechanical Engineering from IIT Dhanbad, where I worked with Prof. Vivek Bajpai & Prof. Arun Dayal Udai worked on vision-guided robotics, aerial manipulation, and embedded perception systems. My experience spans ROS/ROS 2, GNN, MPC, RL, and hardware prototyping for real-world robotic platforms.
+I hold a B.Tech. in Mechanical Engineering from IIT Dhanbad, where I worked with Prof. Vivek Bajpai & Prof. Arun Dayal Udai. I worked on vision-guided gantry crane, aerial manipulation, and embedded perception systems. My experience spans ROS 2, GNN, RL, MPC and hardware prototyping for real-world robotic platforms. 
 
-I am currently exploring research roles in robotics and autonomous systems. Feel free to connect by [email](mailto:aashish.xml@gmail.com).
+I am currently exploring research roles. Feel free to connect by [email](mailto:aashish.xml@gmail.com).
