@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Started a research internship at IIIT-Hyderabad under Prof. Spandan Roy on graph-informed MPC for collaborative drone swarms.
+Started a research internship at [RRC: IIIT Hyderabad](https://robotics.iiit.ac.in/) under Prof. Spandan Roy.

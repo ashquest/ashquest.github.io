@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Built an LLM-integrated autonomous mobile robot with ROS 2 Nav2, LiDAR SLAM, and voice-commanded control.
+Started work at [NVCTI: IIT Dhanbad](https://www.nvcti.in/home) on LLM-integrated autonomous navigation.

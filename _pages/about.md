@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Robotics • Embodied AI • Embedded Systems • Perception
+subtitle: 
 
 profile:
   align: right
@@ -22,7 +22,7 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
@@ -33,8 +33,17 @@ Put your address / P.O. box / other info right below your picture. You can also 
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
 
-Hi, I'm **Aashish Sinha**, a robotics researcher with interests in **controls, embodied AI, VLA, multimodal foundation models & RL**. I am currently a research intern at IIIT-Hyderabad, where I work with [Prof. Spandan Roy](https://scholar.google.com/citations?hl=en&user=tUKoUgMAAAAJ) on graph-informed model predictive control for collaborative drone swarms.
+<!-- Hi, I'm **Aashish Sinha**, a robotics researcher with interests in **controls, embodied AI, VLA, multimodal foundation models & RL**. I am currently a research intern at IIIT-Hyderabad, where I work with [Prof. Spandan Roy](https://scholar.google.com/citations?hl=en&user=tUKoUgMAAAAJ) on graph-informed model predictive control for collaborative drone swarms.
 
 I hold a B.Tech. in Mechanical Engineering from IIT Dhanbad, where I worked with Prof. Vivek Bajpai & Prof. Arun Dayal Udai. I worked on vision-guided gantry crane, aerial manipulation, and embedded perception systems. My experience spans ROS 2, GNN, RL, MPC and hardware prototyping for real-world robotic platforms. 
 
-I am currently exploring research roles. Feel free to connect by [email](mailto:aashish.xml@gmail.com).
+I am currently exploring research roles. Feel free to connect by [email](mailto:aashish.xml@gmail.com). -->
+
+
+
+
+I am a robotics researcher at RRC: IIIT Hyderabad, working with [Prof. Spandan Roy](https://www.iiit.ac.in/faculty/spandan-roy/). I hold a Bachelor of Technology in Mechanical Engineering from IIT Dhanbad.
+
+At my home institution, I worked with [Prof. Vivek Bajpai](https://www.iitism.ac.in/faculty-details?faculty=vivek) on an invention in automation of gantry crane using vision. I also worked with [Prof. Arun Dayal Udai](https://www.iitism.ac.in/faculty-details?faculty=arunudai) and took a robotics course with him.
+
+I aim to develop general-purpose intelligence that enables robot manipulation in complex physical environments. To date, I have worked extensively on RL, CV & Controls. Check out my [CV](/assets/pdf/Aashish_Sinha_CV_Latest.pdf) or some of my [projects](/projects).

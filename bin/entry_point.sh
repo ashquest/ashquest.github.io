@@ -6,6 +6,13 @@ echo "Entry point script running"
 CONFIG_FILE=_config.yml
 DOCKER_DESTINATION=/tmp/_site
 
+# Run in CodeSpaces
+# GEM_HOME="$HOME/.local/share/gem/ruby/3.4.0" \
+# GEM_PATH="$HOME/.local/share/gem/ruby/3.4.0:/usr/local/bundle:/usr/local/lib/ruby/gems/3.4.0" \
+# BUNDLE_PATH="$HOME/.local/share/gem/ruby/3.4.0" \
+# BUNDLE_APP_CONFIG="$HOME/.bundle" \
+# ./bin/entry_point.sh
+
 # Function to manage Gemfile.lock
 manage_gemfile_lock() {
     git config --global --add safe.directory /srv/jekyll

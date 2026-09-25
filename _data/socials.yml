@@ -1,7 +1,7 @@
 # this file contains the social media links and usernames of the author
 # the socials will be displayed in the order they are defined here
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
-cv_pdf: /assets/pdf/Aashish_Sinha_CV_July_2026.pdf  # path to your CV PDF file. Remember: update CV url on the github homepage
+cv_pdf: /assets/pdf/Aashish_Sinha_CV_Latest.pdf  # path to your CV PDF file. Remember: update CV url on the github homepage
 email: aashish.xml@gmail.com # your email address
 github_username: ashquest # your GitHub username
 linkedin_username: aashish-sinha-en # your LinkedIn username
@@ -15,7 +15,3 @@ discord_id: what_blink # your Discord username and tag
 #   logo: https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
 #   url: https://www.alberteinstein.com/
-# custom_social: # can be any name here other than the ones already defined in the jekyll-socials plugin
-#   logo: fa-brands fa-signal-messenger
-#   title: Signal
-#   url: https://signal.me/#eu/WAnDkLEzheoSp3GMu3P6ODJ1RTEuUJG_1VjrIX-La_DmX4kY_YNPN6f7TQ0BcdsN

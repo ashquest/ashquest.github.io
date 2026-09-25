@@ -6,7 +6,7 @@ description: Thoughts on embodied intelligence and the role of real-world intera
 categories: ai robotics
 tags: embodied-ai robotics llm
 related_posts: false
-published: true
+published: false
 ---
 
 Embodied AI feels like one of the most exciting directions in robotics right now. The idea is simple but powerful: intelligence is not only something a system thinks about, but something it can act on in the world. That is what makes robots so interesting to me.

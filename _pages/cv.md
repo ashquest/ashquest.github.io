@@ -6,11 +6,11 @@ nav: true
 nav_order: 5
 cv_pdf: /assets/pdf/Aashish_Sinha_CV_Latest.pdf # use the uploaded CV PDF for download #Remember: update CV url on the github homepage and display
 cv_format: rendercv # options: rendercv, jsonresume
-description: Curriculum vitae of Aashish Sinha, covering robotics research, engineering projects, and technical skills.
+description: Curriculum vitae of Aashish Sinha.
 toc:
   sidebar: left
 ---
-
+<!-- 
 <div class="text-center mt-6">
   <p>If your browser didn't open the PDF automatically, <a id="cv-link" href="{{ page.cv_pdf | relative_url }}" target="_blank" rel="noopener noreferrer">open the CV in a new tab</a>.</p>
 </div>
@@ -28,4 +28,4 @@ toc:
       console.log('Could not open CV automatically:', e);
     }
   })();
-</script>
+</script> -->

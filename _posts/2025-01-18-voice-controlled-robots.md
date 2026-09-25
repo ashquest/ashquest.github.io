@@ -6,7 +6,8 @@ description: A short note on language-driven robot control.
 categories: robotics ai
 tags: llm robotics voice-control
 related_posts: false
-published: true
+published: false
+search_exclude: true
 ---
 
 One of the most interesting developments in robotics is the idea of commanding a robot with natural language. It feels much closer to how humans interact with tools and collaborators than traditional programming interfaces. When a robot can understand instructions spoken in plain language, the barrier to use becomes much lower.
